@@ -19,7 +19,8 @@ header {
 
 
 header .container {
-    margin: 0 100px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 header nav {
     display: flex;
@@ -50,8 +51,7 @@ header .header2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end ;
-    padding: 20px;
-    padding-bottom: 100px;
+    padding: 20px 20px 100px 20px;
     color: white;
     gap: 40px;
 }
@@ -61,6 +61,7 @@ header p {
     color:  #E5E7EB;
     font-size: 18px;
     margin-bottom: 10px;
+    max-width: 500px;
 }
 
 header h1 {
@@ -89,5 +90,55 @@ header button {
     font-size: 18px;
 }
 
+
 /* Hero section 1 */
 
+.containerhero1 {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+section h1 {
+    margin: 40px 0;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+section .img1 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+section .description {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+section .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section p {
+    max-width: 200px;   
+    color: rgb(131, 131, 131);
+}
+
+/* Hero section 2 */
+
+/* .hero2 {
+    background-color: #E5E7EB;
+}
+
+.containerhero2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+} */
